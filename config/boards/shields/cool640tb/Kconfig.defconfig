@@ -1,7 +1,7 @@
-if SHIELD_MONA_L
+if SHIELD_COOL640TB_L
 
 config ZMK_KEYBOARD_NAME
-    default "moNa_L"
+    default "cool640tb_L"
 
 config ZMK_SPLIT
     default y
@@ -14,7 +14,7 @@ endif
 if SHIELD_MONA_R
 
 config ZMK_KEYBOARD_NAME
-    default "moNa_R"
+    default "cool640tb_R"
 
 config ZMK_SPLIT
     default y

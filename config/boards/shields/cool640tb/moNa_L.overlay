@@ -1,4 +1,4 @@
-#include "moNa.dtsi"
+#include "cool640tb.dtsi"
 
 &kscan0 {
         col-gpios

@@ -11,7 +11,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MONA_R
+if SHIELD_COOL640TB_R
 
 config ZMK_KEYBOARD_NAME
     default "cool640tb_R"

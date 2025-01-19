@@ -8,10 +8,10 @@
     };
 / {
     chosen {
-        zmk,physical-layout = &cool942tb_physical_layout;
+        zmk,physical-layout = &cool640tb_physical_layout;
     };
     
-    cool942tb_physical_layout: cool942tb_physical_layout {
+    cool640tb_physical_layout: cool640tb_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
         transform = <&default_transform>;

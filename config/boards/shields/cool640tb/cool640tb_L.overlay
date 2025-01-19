@@ -6,12 +6,12 @@
 
 &kscan0 {
         col-gpios
-            = <&gpio0 9 GPIO_ACTIVE_HIGH>   // 順番を逆に
-            , <&gpio0 10 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 7 GPIO_ACTIVE_HIGH>  
-            , <&xiao_d 8 GPIO_ACTIVE_HIGH> 
-            , <&xiao_d 9 GPIO_ACTIVE_HIGH> 
-            , <&xiao_d 10 GPIO_ACTIVE_HIGH>
+            = <&xiao_d 10 GPIO_ACTIVE_HIGH> // 6
+            , <&xiao_d 9 GPIO_ACTIVE_HIGH>  // 5
+            , <&xiao_d 8 GPIO_ACTIVE_HIGH>  // 4
+            , <&xiao_d 7 GPIO_ACTIVE_HIGH>  // 3
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>  // 2
+            , <&gpio0 9 GPIO_ACTIVE_HIGH>   // 1
             ;
 };
 

@@ -86,9 +86,9 @@
 
         layer_1 {
             bindings = <
-            &kp ESC           &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                  &kp N6       &kp N7           &kp N8        &kp N9      &kp N0     &kp DEL     &kp BSPC
-            &kp TAB           &kp A     &kp S     &kp D       &kp F     &kp G                   &kp H        &kp J            &kp K         &kp L       &kp MINUS  &kp ENTER
-            &kp LSHIFT        &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
+            &bt BT_SEL 1      &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                  &kp N6       &kp N7           &kp N8        &kp N9      &kp N0     &kp DEL     &bt BT_CLR
+            &bt BT_SEL 2      &kp A     &kp S     &kp D       &kp F     &kp G                   &kp H        &kp J            &kp K         &kp L       &kp MINUS  &kp ENTER
+            &bt BT_SEL 3      &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
             &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 SPACE                                   &lt 2 SPACE                                                    &trans                 &trans    &trans  &trans  &trans       &trans       &trans        &kp PIPE
             >;
 

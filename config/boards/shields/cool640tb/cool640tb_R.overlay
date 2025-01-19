@@ -1,9 +1,5 @@
 #include "cool640tb.dtsi"
 
-&default_transform {
-    col-offset = <6>;
-};
-
 &kscan0 {
         col-gpios
             = <&xiao_d 10 GPIO_ACTIVE_HIGH>
@@ -41,8 +37,6 @@
     };
 };
 
-&xiao_serial { status = "disabled"; };
-
 &spi0 {
     status = "okay";
     compatible = "nordic,nrf-spim";
@@ -62,3 +56,6 @@
     };
 };
 
+&left_encoder {
+    status = "okay";
+};

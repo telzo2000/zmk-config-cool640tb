@@ -19,8 +19,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: cool640tb_L rgbled_adapter
+    shield: cool640tb_L
   - board: seeeduino_xiao_ble
-    shield: cool640tb_R rgbled_adapter
+    shield: cool640tb_R
   - board: seeeduino_xiao_ble
     shield: settings_reset

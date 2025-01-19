@@ -1,7 +1,7 @@
-if SHIELD_COOL640TB_L
+if SHIELD_COOL640TB_R
 
 config ZMK_KEYBOARD_NAME
-    default "cool640tb_L"
+    default "cool640tb_R"
 
 config ZMK_SPLIT
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MONA_R
+if SHIELD_COOL640TB_L
 
 config ZMK_KEYBOARD_NAME
-    default "cool640tb_R"
+    default "cool640tb_L"
 
 config ZMK_SPLIT
     default y

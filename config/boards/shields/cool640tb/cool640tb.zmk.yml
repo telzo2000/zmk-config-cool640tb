@@ -6,6 +6,3 @@ url: https://github.com/telzo2000/zmk-config-cool640tb
 requires: [seeeduino_xiao_ble]
 features:
   - keys
-siblings:
-  - cool640tb_L
-  - cool640tb_R

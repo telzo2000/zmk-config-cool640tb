@@ -91,7 +91,9 @@
             &bt BT_SEL 3      &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
             &kp LCTRL         &mkp MB1  &mkp MB2  &lt 1 SPACE                                   &lt 2 SPACE                                                    &trans                 &trans    &trans  &trans  &trans       &trans       &trans        &kp PIPE
               >;
+                    sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
+
 
         NUM {
             bindings = <
@@ -100,6 +102,7 @@
             &kp LSHIFT        &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
             &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 SPACE                                   &lt 2 SPACE                                          &trans       &trans              &trans   &trans     &trans         &trans        &trans       &trans
            >;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         ARROW {
@@ -120,6 +123,7 @@
             &kp LSHIFT        &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
             &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 SPACE                                   &lt 2 SPACE                                          &trans       &trans              &trans   &trans     &trans         &trans        &trans       &trans
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SCROLL {
@@ -129,6 +133,7 @@
             &kp LSHIFT        &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
             &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 SPACE                                   &lt 2 SPACE                                          &trans       &trans              &trans   &trans     &trans         &trans        &trans       &trans
            >;
+             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         layer_6 {
@@ -138,6 +143,8 @@
             &kp LSHIFT        &kp Z     &kp X     &kp C       &kp V     &kp B                   &kp N        &kp M            &kp COMMA     &kp PERIOD  &kp SLASH  &kp RSHIFT 
             &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 SPACE                                   &lt 2 SPACE                                          &trans       &trans              &trans   &trans     &trans         &trans        &trans       &trans
            >;
+             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
+
     };
 };

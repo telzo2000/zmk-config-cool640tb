@@ -1,0 +1,3 @@
+config SHIELD_cool640tb
+    def_bool $(shields_list_contains,cool640tb)
+

@@ -1,5 +1,0 @@
-config SHIELD_COOL640TB_R
-    def_bool $(shields_list_contains,cool640tb_R)
-
-config SHIELD_COOL640TB_L
-    def_bool $(shields_list_contains,cool640tb_L)

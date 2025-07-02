@@ -78,10 +78,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W   &kp E             &kp R         &kp T        &kp Y        &kp U         &kp I          &kp O       &kp P
-&kp A           &kp S   &kp D             &kp F         &kp G        &kp H        &kp J         &kp K          &kp L       &kp ENTER
-&kp Z           &kp X   &kp C             &kp V         &kp B        &kp N        &kp M         &kp COMMA      &kp PERIOD  &kp LEFT_SHIFT
-&kp LEFT_SHIFT  &kp N2  &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 1 SPACE  &lt 2 SPACE  &kp LEFT_ALT  &kp BACKSPACE  &kp N3      &kp N4
+&kp Q       &kp W    &kp E             &kp R         &kp T        &kp Y        &kp U         &kp I          &kp O          &kp P
+&kp A       &kp S    &kp D             &kp F         &kp G        &kp H        &kp J         &kp K          &kp L          &kp ENTER
+&kp Z       &kp X    &kp C             &kp V         &kp B        &kp N        &kp M         &kp COMMA      &kp PERIOD     &kp LEFT_SHIFT
+&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 1 SPACE  &lt 2 SPACE  &kp LEFT_ALT  &kp BACKSPACE  &kp RC(SPACE)  &kp RG(N4)
             >;
         };
 
@@ -99,7 +99,7 @@
 &kp F1       &kp F2   &kp F3             &kp F4         &kp F5          &kp F6         &kp F7          &kp F8          &kp F9           &kp F10
 &kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON       &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
 &kp Z        &kp X    &kp C              &kp V          &kp B           &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
-&kp N1       &kp N2   &kp LEFT_CONTROL   &kp LEFT_GUI   &kp UNDERSCORE  &none          &kp LEFT_ALT    &kp BACKSPACE   &kp N3           &kp N4
+&kp N1       &kp N2   &kp LEFT_CONTROL   &kp LEFT_GUI   &kp UNDERSCORE  &none          &kp LEFT_ALT    &kp BACKSPACE   &kp N3           &mo 4
             >;
         };
 
@@ -114,10 +114,10 @@
 
         MOUSE {
             bindings = <
-&kp Q   &kp W   &kp E             &kp R         &kp T        &kp Y        &kp U         &kp I          &kp O       &kp P
-&kp A   &kp S   &kp D             &kp F         &kp G        &kp H        &kp J         &kp K          &kp L       &kp ENTER
-&kp Z   &kp X   &kp C             &kp V         &kp B        &kp N        &kp M         &kp COMMA      &kp PERIOD  &kp LEFT_SHIFT
-&kp N1  &kp N2  &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 1 SPACE  &lt 2 SPACE  &kp LEFT_ALT  &kp BACKSPACE  &kp N3      &kp N4
+&kp Q   &kp W   &kp E             &kp R         &kp T     &kp Y     &kp U         &kp I          &kp O       &kp P
+&kp A   &kp S   &kp D             &kp F         &kp G     &kp H     &kp J         &kp K          &kp L       &kp ENTER
+&kp Z   &kp X   &kp C             &kp V         &kp B     &kp N     &kp M         &kp COMMA      &kp PERIOD  &kp LEFT_SHIFT
+&kp N1  &kp N2  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &kp LEFT_ALT  &kp BACKSPACE  &kp N3      &mo 0
             >;
         };
 
